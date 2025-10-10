@@ -1,4 +1,4 @@
-# EPROJECT-PHASE-1
+OJECT-PHASE-1
 
 ## Example `.env` file:
 
@@ -19,29 +19,29 @@
 
 ## Test all business logic with POSTMAN
 ### Kết quả chạy docker
-![Docker Architecture](public/result/docker.png)
+![Docker Architecture](public/results/docker.png)
 ### 🔑 Đăng ký người dùng
-![Register](public/result/register.png)
+![Register](public/results/register.png)
 
 ### 🔐 Đăng nhập người dùng
-![Login](public/result/login.png)
+![Login](public/results/login.png)
 
 ---
 
 ## 🛍️ Product Service
 
 ### ➕ Thêm sản phẩm
-![Product](public/result/product.png)
+![Product](public/results/product.png)
 
 ### 🔎 Lấy danh sách sản phẩm
-![Get Product](public/result/getProduct.png)
+![Get Product](public/results/getProduct.png)
 
 ---
 
 ## 📦 Order Service
 
 ### 🧾 Đặt hàng sản phẩm
-![Order Product](public/result/orderProduct.png)
+![Order Product](public/results/orderProduct.png)
 
 ---
 
@@ -49,7 +49,7 @@
 
 Hệ thống sử dụng **RabbitMQ** để giao tiếp giữa các service (Pub/Sub model):
 
-![RabbitMQ](public/result/rabbit.png)
+![RabbitMQ](public/results/rabbit.png)
 
 ---
 
