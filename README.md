@@ -18,34 +18,32 @@ OJECT-PHASE-1
 - MONGODB_PRODUCT_URI=mongodb://host:port/database
 
 ## Test all business logic with POSTMAN
-### Kết quả chạy docker
-![Docker Architecture](public/results/docker.png)
-### 🔑 Đăng ký người dùng
+###  Đăng ký người dùng
 ![Register](public/results/register.png)
 
-### 🔐 Đăng nhập người dùng
+###  Đăng nhập người dùng
 ![Login](public/results/login.png)
 
 ---
 
-## 🛍️ Product Service
+## Product Service
 
-### ➕ Thêm sản phẩm
+### Thêm sản phẩm
 ![Product](public/results/product.png)
 
-### 🔎 Lấy danh sách sản phẩm
+###  Lấy danh sách sản phẩm
 ![Get Product](public/results/getProduct.png)
 
 ---
 
-## 📦 Order Service
+##  Order Service
 
-### 🧾 Đặt hàng sản phẩm
+###  Đặt hàng sản phẩm
 ![Order Product](public/results/orderProduct.png)
 
 ---
 
-## 🐇 RabbitMQ Service
+##  RabbitMQ Service
 
 Hệ thống sử dụng **RabbitMQ** để giao tiếp giữa các service (Pub/Sub model):
 
@@ -53,7 +51,7 @@ Hệ thống sử dụng **RabbitMQ** để giao tiếp giữa các service (Pub
 
 ---
 
-## ⚙️ Công nghệ sử dụng
+##  Công nghệ sử dụng
 
 - **Node.js / Express.js**
 - **MongoDB**
