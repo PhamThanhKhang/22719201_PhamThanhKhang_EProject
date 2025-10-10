@@ -19,22 +19,45 @@
 
 ## Test all business logic with POSTMAN
 ### Kết quả chạy docker
-![results](public/results/docker.png)
----------------
-### Kết quả test postman với register
-![results](public/results/register.png)
----------------
-### Kết quả test postman với login
-![results](public/results/login.png)
----------------
-### Kết quả test postman với tạo product
-![results](public/results/product.png)
----------------
-### Kết quả test postman với order product
-![results](public/results/order.png)
----------------
-### Kết quả test postman với xem product
-![results](public/results/getProduct.png)
----------------
-### Kết quả test postman với rabbit
-![results](public/results/rabbit.png)
+![Docker Architecture](public/result/docker.png)
+### 🔑 Đăng ký người dùng
+![Register](public/result/register.png)
+
+### 🔐 Đăng nhập người dùng
+![Login](public/result/login.png)
+
+---
+
+## 🛍️ Product Service
+
+### ➕ Thêm sản phẩm
+![Product](public/result/product.png)
+
+### 🔎 Lấy danh sách sản phẩm
+![Get Product](public/result/getProduct.png)
+
+---
+
+## 📦 Order Service
+
+### 🧾 Đặt hàng sản phẩm
+![Order Product](public/result/orderProduct.png)
+
+---
+
+## 🐇 RabbitMQ Service
+
+Hệ thống sử dụng **RabbitMQ** để giao tiếp giữa các service (Pub/Sub model):
+
+![RabbitMQ](public/result/rabbit.png)
+
+---
+
+## ⚙️ Công nghệ sử dụng
+
+- **Node.js / Express.js**
+- **MongoDB**
+- **RabbitMQ**
+- **Docker**
+- **JWT Authentication**
+- **RESTful API**
