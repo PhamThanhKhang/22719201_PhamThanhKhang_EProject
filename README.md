@@ -1,22 +1,4 @@
 OJECT-PHASE-1
-
-## Example `.env` file:
-
-### .env auth
-- MONGODB_AUTH_URI= mongodb://host:port/database
-- JWT_SECRET= your_jwt_sercet
-
-### .env order
-- MONGODB_AUTH_URI= mongodb://host:port/database
-- JWT_SECRET= your_jwt_secret
-- MONGODB_PRODUCT_URI=mongodb://host:port/database
-- MONGODB_ORDER_URI=mongodb://host:port/database
-
-### .env product
-- MONGODB_AUTH_URI=mongodb://host:port/database
-- JWT_SECRET=your_jwt_sercet
-- MONGODB_PRODUCT_URI=mongodb://host:port/database
-
 ## Test all business logic with POSTMAN
 ###  Đăng ký người dùng
 ![Register](public/results/register.png)
