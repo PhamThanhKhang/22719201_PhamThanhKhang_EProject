@@ -33,6 +33,8 @@ Các dịch vụ chính:
 
 ---
 
+## Lấy Sản Phẩm Theo ID
+![GetID_Product](public/results/getID_Product.png)
 ##  RabbitMQ Service
 
 Hệ thống sử dụng **RabbitMQ** để giao tiếp giữa các service (Pub/Sub model):
